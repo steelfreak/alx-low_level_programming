@@ -1,23 +1,14 @@
 #include <stdio.h>
 
-
-
 /**
-
- *main - Entry point
-
+ *main - print the string in the put function
  *
-
- *Return: Always 0 (Success)
-
+ *Description:using the main function
  */
 
 int main(void)
-
 {
-
 	printf("with proper grammer, but the outcome is a piece of art,\n");
-
 	return (0);
 
 }

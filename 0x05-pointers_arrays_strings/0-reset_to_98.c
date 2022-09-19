@@ -1,38 +1,12 @@
-julien@ubuntu:~/0x05$ cat 0-main.c
-
 #include "main.h"
 
-#include <stdio.h>
-
-
-
 /**
-
- * main - check the code 
-
- *
-
- * Return: Always 0.
-
+ * reset_to_98 - function that takes a pointer to an integer parameter
+ * @n: integer pointer
+ * Return: 0 Success
  */
 
-int main(void)
-
+void reset_to_98(int *n)
 {
-
-    int n;
-
-
-
-    n = 402;
-
-    printf("n=%d\n", n);
-
-    reset_to_98(&n);
-
-    printf("n=%d\n", n);
-
-    return (0);
-
+	*n = 98;
 }
-

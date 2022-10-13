@@ -15,10 +15,10 @@ void add_nums(char *final_prod, char *next_prod, int next_len);
 int find_len(char *str)
 {
 int len = 0;
-  
-while(*str++)
+
+while (*str++)
 len++;
-  
+
 return (len);
 }
 
@@ -36,7 +36,7 @@ char *create_xarray(int size)
 char *array;
 init index;
 
-array = malloc(sieof(char) *size);
+array = malloc(sieof(char) * size);
 
 if (array == NULL)
 exit(98);
@@ -124,9 +124,9 @@ printf("Error\n");
 exit(98);
 }
 
-num = (*mult - '0') *digit;
+num = (*mult - '0') * digit;
 num += tens;
-*prod =(num % 10) + '0';
+*prod = (num % 10) + '0';
 tens = num / 10;
 }
 
